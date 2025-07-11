@@ -101,7 +101,7 @@ function loadMoreArticles() {
         const newArticles = [
             {
                 category: 'technology',
-                image: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop',
+                image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=400&h=300&fit=crop',
                 title: 'The Rise of Edge Computing in 2024',
                 description: 'Discover how edge computing is revolutionizing data processing and reducing latency.',
                 author: 'Alex Thompson',

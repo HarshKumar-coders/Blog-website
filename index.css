@@ -257,6 +257,10 @@ a {
   box-shadow: 0 4px 12px var(--shadow-color);
   transition: all 0.3s ease;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px; /* Adjust as needed for compact cards */
 }
 
 .cardholder:hover {
@@ -266,7 +270,7 @@ a {
 
 .card_image_container {
   position: relative;
-  height: 14rem;
+  height: 4.5 rem;
   overflow: hidden;
 }
 
@@ -301,7 +305,7 @@ a {
 }
 
 .card_text {
-  padding: 1.5rem;
+  padding: 0.5rem;
 }
 
 .card_heading {
@@ -326,7 +330,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
+  padding: 0.4rem 0.5rem;
   border-top: 1px solid var(--border-color);
 }
 
@@ -390,6 +394,15 @@ a {
   padding: 1rem 1.5rem;
   border-top: 1px solid var(--border-color);
   background: var(--card-background);
+  flex-shrink: 0;
+  min-height: 40px;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.4rem 0.5rem;
+  border-top: 1px solid var(--border-color);
+  background: var(--card-background);
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .share-btn {
