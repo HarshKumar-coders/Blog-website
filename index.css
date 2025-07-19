@@ -103,6 +103,12 @@ a {
   background-color: rgba(80, 39, 255, 0.1);
 }
 
+.nav-link:focus {
+  outline: 2px solid var(--secondary-color);
+  outline-offset: 2px;
+  background: rgba(80, 39, 255, 0.15);
+}
+
 .nav-toggle {
   display: none;
   font-size: 1.5rem;
@@ -423,6 +429,12 @@ a {
   background: var(--primary-color);
   color: white;
   transform: scale(1.1);
+}
+
+.share-btn:focus {
+  outline: 2px solid var(--secondary-color);
+  outline-offset: 2px;
+  background: rgba(80, 39, 255, 0.15);
 }
 
 /* Load More Button */
