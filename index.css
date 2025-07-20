@@ -1,7 +1,7 @@
 /* CSS Variables for Theme Support */
 :root {
-  --primary-color: #3c3c84;
-  --secondary-color: #5027ff;
+  --primary-color: #3f3f8f;
+  --secondary-color: #4821f3;
   --background-color: #f7f8fc;
   --card-background: #ffffff;
   --text-color: #333;
@@ -22,7 +22,7 @@
   --primary-color: #6b6bff;
   --secondary-color: #8b5cf6;
   --background-color: #1a1a2e;
-  --card-background: #16213e;
+  --card-background: #101930;
   --text-color: #ffffff;
   --text-secondary: #b8b8b8;
   --border-color: #2d3748;
