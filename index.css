@@ -100,7 +100,7 @@ a {
 .nav-link:hover,
 .nav-link.active {
   color: var(--secondary-color);
-  background-color: rgba(80, 39, 255, 0.1);
+  background-color: rgba(76, 38, 243, 0.1);
 }
 
 .nav-link:focus {
